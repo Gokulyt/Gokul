@@ -41,6 +41,23 @@
         <main>
             <h2 class="text-2xl font-semibold border-b border-gray-300 pb-2 mb-6">Available PDF Files</h2>
             <div id="pdf-list" class="space-y-4">
+                <!-- Your new PDF with a download link -->
+                <div class="pdf-item bg-white p-4 rounded-lg shadow-sm border border-gray-200 flex items-center justify-between hover:shadow-md transition-shadow duration-300">
+                    <div class="flex items-center">
+                         <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-red-500 mr-3" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
+                        </svg>
+                        <span class="font-medium">MISSION BRIEFING.pdf</span>
+                    </div>
+                    <!-- 
+                        IMPORTANT: Replace 'YOUR_USERNAME' in the href value below with your actual GitHub username.
+                        The link should point to the 'raw' version of the file on GitHub.
+                    -->
+                    <a href="https://raw.githubusercontent.com/Gokulyt/Gokul/main/pdf/MISSION%20BRIEFING.pdf" download class="text-sm bg-green-500 text-white font-semibold py-2 px-4 rounded-lg hover:bg-green-600 transition-colors duration-300">
+                        Download
+                    </a>
+                </div>
+
                 <!-- Example PDF files. Replace these with your own. -->
                 <div class="pdf-item bg-white p-4 rounded-lg shadow-sm border border-gray-200 flex items-center justify-between hover:shadow-md transition-shadow duration-300">
                     <div class="flex items-center">
@@ -104,3 +121,4 @@
 
 </body>
 </html>
+
